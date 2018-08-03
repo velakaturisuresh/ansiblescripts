@@ -1,0 +1,7 @@
+- hosts: dev
+  tasks:
+      - name: install_tree
+        become: yes 
+        apt: name=tree  
+        
+  

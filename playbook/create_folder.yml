@@ -1,0 +1,4 @@
+- hosts: dev 
+  tasks: 
+       - name: create_folder_practice
+         file: path=/home/suresh/practice state=directory mode=0755

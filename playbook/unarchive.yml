@@ -1,0 +1,4 @@
+- hosts: dev 
+  tasks: 
+       - name: unarchive the tar file
+         unarchive: src=/home/suresh/test/apache-tomcat-7.0.90.tar.gz dest=/home/suresh/test

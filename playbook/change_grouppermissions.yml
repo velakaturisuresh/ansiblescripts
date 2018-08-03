@@ -1,0 +1,4 @@
+- hosts: dev
+  tasks:
+       - name: change_grouppermissions
+         file: path=/home/suresh/test/dummy group=suresh mode=0756

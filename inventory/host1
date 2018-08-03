@@ -1,0 +1,2 @@
+[host1]
+52.66.68.142 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/suresh/Desktop/jenkins.pem ansible_sudo_pass=Suresh@7

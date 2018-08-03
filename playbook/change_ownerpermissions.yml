@@ -1,0 +1,4 @@
+- hosts: dev
+  tasks:
+        - name: change_owner
+          file: path=/home/suresh/test/dummy  owner=suresh mode=0744

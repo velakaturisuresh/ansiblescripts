@@ -1,0 +1,6 @@
+- hosts: dev 
+  tasks:
+       - name: uninstall_tree
+         apt: name=tree state=absent 
+         become: yes
+         

@@ -1,0 +1,4 @@
+- hosts: host1
+  tasks: 
+       - name: copying shell script from local to remote 
+         copy: src=/home/suresh/shellscripting/sum_of_n_numbers.sh dest=/home/ubuntu owner=ubuntu group=ubuntu mode=775 

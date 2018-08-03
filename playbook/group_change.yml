@@ -1,0 +1,5 @@
+- hosts: dev
+  tasks:
+       - name: groupchange
+         file: path=/home/suresh/test group=root mode=0755
+         become: yes

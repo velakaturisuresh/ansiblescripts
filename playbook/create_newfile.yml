@@ -1,0 +1,4 @@
+- hosts: dev
+  tasks:
+       - name: create file named newfile in newfolder
+         file: path=/home/suresh/practice/newfolder/newfile state=touch mode=0755

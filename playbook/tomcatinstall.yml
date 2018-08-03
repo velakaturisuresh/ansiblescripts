@@ -1,0 +1,5 @@
+- hosts: host1
+  tasks: 
+       - name: apache tomcat install
+         apt: name=tomcat7 update_cache=yes
+         become: yes

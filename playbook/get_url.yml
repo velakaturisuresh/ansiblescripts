@@ -1,0 +1,4 @@
+- hosts: dev 
+  tasks: 
+       - name: get_url
+         get_url: url=http://www-eu.apache.org/dist/tomcat/tomcat-7/v7.0.90/bin/apache-tomcat-7.0.90.tar.gz dest=/home/suresh/test mode=0440 

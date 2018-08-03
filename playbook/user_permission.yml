@@ -1,0 +1,6 @@
+- hosts: dev
+  tasks:
+       - name: user_permissions
+         file: path=/home/suresh/dummy mode=0644
+ 
+         

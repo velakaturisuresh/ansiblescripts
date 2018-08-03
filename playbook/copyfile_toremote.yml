@@ -1,0 +1,6 @@
+- hosts: host1
+  tasks: 
+       - name: copying from local to remote
+         copy: src=/home/suresh/test/dummy dest=/home/ubuntu owner=ubuntu group=ubuntu mode=0775
+         
+

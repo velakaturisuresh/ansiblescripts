@@ -1,0 +1,5 @@
+- hosts: dev
+  tasks:
+       - name: ownerchange
+         file: path=/home/suresh/test =suresh mode=0777
+         become: yes

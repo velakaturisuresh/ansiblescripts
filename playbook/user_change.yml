@@ -1,0 +1,5 @@
+- hosts: dev
+  tasks:
+       - name: groupchange
+         file: path=/home/suresh/test user=manju 
+         become: yes

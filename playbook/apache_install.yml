@@ -1,0 +1,5 @@
+- hosts: dev 
+  tasks: 
+       - name: installing apache in local server 
+         apt: name=apache2 update_cache=yes state=latest
+         become: yes

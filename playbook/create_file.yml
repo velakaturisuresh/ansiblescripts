@@ -1,0 +1,4 @@
+- hosts: dev
+  tasks:
+       - name: create file named file1 in practice
+         file: path=/home/suresh/practice/file1 state=touch mode=0755

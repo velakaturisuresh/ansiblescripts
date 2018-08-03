@@ -1,0 +1,6 @@
+- hosts: host1
+  tasks: 
+       - name: java installation
+         apt: name=openjdk-8-jdk update_cache=yes
+         become: yes
+
