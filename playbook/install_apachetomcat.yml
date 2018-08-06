@@ -1,5 +1,0 @@
-- hosts: dev
-  tasks: 
-       - name: installing apache from local archived 
-         apt: name=apache-tomcat-7.0.90 
-         become: yes
