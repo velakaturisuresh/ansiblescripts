@@ -1,0 +1,6 @@
+- hosts: host1
+  tasks: 
+       - name: copying jar file from local to webapp 
+         copy: src=/var/lib/jenkins/workspace/copyartifacts_from_mavenproject/my_application-1.0-SNAPSHOT.jar dest=/var/lib/tomcat7/webapps owner=ubuntu group=ubuntu mode=0775
+         
+
