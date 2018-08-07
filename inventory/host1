@@ -1,2 +1,2 @@
-[dev]
+[host1]
 35.154.202.58 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/home/suresh/Desktop/installjava.pem ansible_sudo_pass=Suresh@7
