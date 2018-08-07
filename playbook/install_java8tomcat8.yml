@@ -1,0 +1,12 @@
+- hosts: host1
+  tasks: 
+       - name: java and tomcat install
+         apt: name=openjdk-8-jdk update_cache=yes
+         become: yes
+       - name: apache tomcat install
+         apt: name=tomcat8 update_cache=yes
+         become: yes
+       - name: enable tomcat startup
+         systemd: name=tomcat8 enabled=yes state=restarted
+         become: yes
+
