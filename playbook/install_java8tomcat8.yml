@@ -1,4 +1,4 @@
-- hosts: dev
+- hosts: host1
   tasks: 
        - name: java and tomcat install
          apt: name=openjdk-8-jdk update_cache=yes
