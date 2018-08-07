@@ -1,6 +1,6 @@
 - hosts: host1
   tasks: 
        - name: copying jar file from local to webapp 
-         copy: src=my_application-1.0-SNAPSHOT.jar dest=/var/lib/tomcat7/webapps
+         copy: src=my_application-1.0-SNAPSHOT.jar dest=/var/lib/tomcat7/webapps remote_src=yes
          
 
